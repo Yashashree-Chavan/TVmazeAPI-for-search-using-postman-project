@@ -8,6 +8,7 @@ form.addEventListener('submit', async function(e){
     form.elements.query.value='';
 });
 
+
 const makeImages=(person)=>{//person is one of variable
     for(let result of person){
         if(result.person.image){
